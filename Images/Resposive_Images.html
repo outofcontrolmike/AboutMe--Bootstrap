@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Alignment of images through BootStrap 4</title>
+    <title>Responsive Image</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -12,24 +12,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head>
-  <body style="background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);">
-    <div class="fluid-container"
-    >
-      <h2 style="text-align: center">Aligning Images</h2>
-      <p style="text-align: center">We can float images to the left or right</p>
+  <body
+    style="background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);"
+  >
+    <div class="container">
+      <h2>Respnsive Image</h2>
+      <p>
+        fluid class makes the image scale nicely to the parent element
+      </p>
       <img
-        src="shadow.jpg"
-        class="float-right"
-        alt="ff character"
-        width="300"
-        height="250"
-      />
-      <img
+        class="img-fluid"
         src="cecil.jpg"
-        class="float-left"
-        alt="ff character"
-        width="300"
-        height="250"
+        alt="Dark Knight"
+        width="460"
+        height="345"
       />
     </div>
   </body>
