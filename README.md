@@ -1,2 +1,2 @@
-# AboutMe--Bootstrap
-Simple Web Page Using Boostrap
+# BootStrap 4
+This is basically a walkthrough of BootStrap 4 topics 
