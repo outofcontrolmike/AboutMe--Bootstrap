@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Vertical Button Group Dropdown</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body style="background-color: cornsilk;">
+    <div class="container">
+      <h1>Basic Collapsable</h1>
+      <p>
+        These are useful when there is a large amount of content that needs to
+        be shown and hidden
+      </p>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="collapse"
+        data-target="#demo"
+      >
+        Press here to show/hide
+      </button>
+      <div id="demo" class="collapse">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </div>
+      <br>
+      <div style="background-color:lavender" class="container">
+      <h1>Show the Cllapsible content by default</h1>
+      <p>
+        This can be done by calling the show method in the collapse class
+      </p>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="collapse"
+        data-target="#demo1"
+      >
+        Press here to show/hide
+      </button>
+      <div id="demo1" class="collapse show">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
