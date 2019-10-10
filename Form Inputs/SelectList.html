@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Select list</h2>
+        <p>Displays a Select List</p>
+        <form action="/action_page.php">
+            <div class="form-group">
+                <label for="sell">Select List (select one please):</label>
+                <select class="form-control" id="sell" name="sellList1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>4</option>
+                    <option>02</option>
+                </select>
+                <br>
+                <h1>Multiple Select List</h1>
+                <label for="sel2">Multiple Select list options</label>
+                <select multiple class="form-control" id="sel2" name="sellList2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>8</option>
+                    <option>9</option>
+
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">
+                Submit
+            </button>
+        </form>
+    </div>
+
+</body>
+
+</html>
